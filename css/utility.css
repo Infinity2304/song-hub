@@ -1,0 +1,89 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: 15px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-gray {
+    background-color: #121212;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.circle_border {
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+/* Apply to the whole page or specific element */
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+/* Scrollbar track */
+body::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+    background: #333;
+    /* Dark background for the track */
+    border-radius: 6px;
+    /* Rounded edges */
+}
+
+/* Scrollbar thumb */
+body::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+    background: #555;
+    /* Color of the thumb */
+    border-radius: 16px;
+    /* Rounded edges */
+}
+
+/* Hover effect on the scrollbar thumb */
+body::-webkit-scrollbar-thumb:hover,
+div::-webkit-scrollbar-thumb:hover {
+    background: #777;
+    /* Lighter color on hover */
+}
+
+/* Remove the scrollbar buttons (arrows) */
+body::-webkit-scrollbar-button,
+div::-webkit-scrollbar-button {
+    display: none;
+}
